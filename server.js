@@ -6,6 +6,7 @@ const reviewdatafull = Object.assign({}, reviewdata);
 
 var app = express();
 var port = process.env.PORT || 3000;
+console.log('nigger')
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
